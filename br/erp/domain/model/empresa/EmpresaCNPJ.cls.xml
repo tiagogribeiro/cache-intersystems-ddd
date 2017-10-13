@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+<Class name="br.erp.domain.model.empresa.EmpresaCNPJ">
+<ClassType>datatype</ClassType>
+<ClientDataType>CHARACTERSTREAM</ClientDataType>
+<TimeCreated>64569,49776.972439</TimeCreated>
+
+<Method name="IsValid">
+<ClassMethod>1</ClassMethod>
+<FormalSpec>%val</FormalSpec>
+<ReturnType>%Status</ReturnType>
+<Implementation><![CDATA[
+    if (%val = ""){
+        quit $SYSTEM.Status.Error(5001, "Código inválido para empresa.")
+    }
+    quit $$$OK
+]]></Implementation>
+</Method>
+
+<Method name="LogicalToDisplay">
+<ClassMethod>1</ClassMethod>
+<FormalSpec>%val</FormalSpec>
+<Implementation><![CDATA[    quit "CNPJ: "_%val
+]]></Implementation>
+</Method>
+</Class>
+</Export>

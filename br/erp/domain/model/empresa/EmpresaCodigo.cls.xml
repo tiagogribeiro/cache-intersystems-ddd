@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+<Class name="br.erp.domain.model.empresa.EmpresaCodigo">
+<ClassType>datatype</ClassType>
+<ClientDataType>LONGVARCHAR</ClientDataType>
+<SqlCategory>STRING</SqlCategory>
+<TimeCreated>64569,49785.436296</TimeCreated>
+
+<Method name="IsValid">
+<ClassMethod>1</ClassMethod>
+<FormalSpec>%val</FormalSpec>
+<ReturnType>%Status</ReturnType>
+<Implementation><![CDATA[
+    if (%val = ""){
+        quit $SYSTEM.Status.Error(5001, "Código inválido para empresa.")
+    }
+    quit $$$OK
+]]></Implementation>
+</Method>
+</Class>
+</Export>

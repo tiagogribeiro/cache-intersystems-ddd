@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+<Class name="br.erp.domain.shared.Specification">
+<Abstract>1</Abstract>
+<TimeCreated>64569,49836.982836</TimeCreated>
+
+<Method name="eSatisfeitoPor">
+<FormalSpec>especificacao</FormalSpec>
+<ReturnType>%Boolean</ReturnType>
+</Method>
+
+<Method name="e">
+<FormalSpec>especificacao</FormalSpec>
+<ReturnType>Specification</ReturnType>
+</Method>
+
+<Method name="ou">
+<FormalSpec>especificacao</FormalSpec>
+<ReturnType>Specification</ReturnType>
+</Method>
+
+<Method name="nao">
+<FormalSpec>especificacao</FormalSpec>
+<ReturnType>Specification</ReturnType>
+</Method>
+</Class>
+</Export>

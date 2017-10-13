@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+<Class name="br.erp.domain.model.empresa.Empresa">
+<Super>br.erp.domain.shared.Entity</Super>
+<TimeCreated>64569,49732.315739</TimeCreated>
+
+<Property name="id">
+<Type>EmpresaId</Type>
+<Private>1</Private>
+</Property>
+
+<Property name="codigo">
+<Type>EmpresaCodigo</Type>
+<Private>1</Private>
+</Property>
+
+<Property name="cnpj">
+<Type>EmpresaCNPJ</Type>
+<Private>1</Private>
+</Property>
+</Class>
+</Export>

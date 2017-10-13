@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+<Class name="br.erp.domain.shared.Entity">
+<Super>%RegisteredObject</Super>
+<TimeCreated>64569,49828.183707</TimeCreated>
+</Class>
+</Export>
