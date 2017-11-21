@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Export generator="Cache" version="25">
-<Class name="br.erp.domain.model.empresa.EmpresaId">
-<ClassType>datatype</ClassType>
-<ClientDataType>NUMERIC</ClientDataType>
-<TimeCreated>64569,49793.915819</TimeCreated>
-</Class>
-</Export>
