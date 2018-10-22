@@ -7,4 +7,5 @@ Property codigo As EmpresaCodigo [ Private ];
 
 Property cnpj As EmpresaCNPJ [ Private ];
 
+
 }
