@@ -2,4 +2,3 @@ Class br.erp.domain.model.empresa.EmpresaId [ ClassType = datatype, ClientDataTy
 {
 
 }
-

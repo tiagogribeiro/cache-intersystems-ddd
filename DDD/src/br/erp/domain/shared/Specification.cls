@@ -18,4 +18,3 @@ Method nao(especificacao) As Specification
 }
 
 }
-

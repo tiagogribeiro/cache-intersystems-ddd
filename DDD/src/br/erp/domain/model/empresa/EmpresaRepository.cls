@@ -14,4 +14,3 @@ Method registar(empresa As br.erp.domain.model.empresa.Empresa) As %Status
 }
 
 }
-

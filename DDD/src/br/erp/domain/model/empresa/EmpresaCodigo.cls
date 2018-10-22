@@ -10,4 +10,3 @@ ClassMethod IsValid(%val) As %Status
 }
 
 }
-
