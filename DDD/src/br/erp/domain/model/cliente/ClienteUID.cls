@@ -1,4 +1,4 @@
-Class ClienteUID extends br.erp.domain.shared.ValueObject [Final]
+Class br.erp.domain.model.cliente.ClienteUID extends br.erp.domain.shared.ValueObject [Final]
 {
 
     Property uid As %String [ Private ];
@@ -30,4 +30,5 @@ Class ClienteUID extends br.erp.domain.shared.ValueObject [Final]
     {
         return ..uid
     }
+    
 }

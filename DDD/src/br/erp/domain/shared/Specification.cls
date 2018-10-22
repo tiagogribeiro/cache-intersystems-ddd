@@ -1,4 +1,4 @@
-Class br.erp.domain.shared.Specification [ Abstract ]
+Class br.erp.domain.shared.Specification Extends %RegisteredObject [ Abstract ]
 {
 
 Method eSatisfeitoPor(especificacao) As %Boolean
